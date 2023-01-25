@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#un_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    list-style: none;
+    border: 1px solid black;
+    background-color: violet;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.fizzbuzz{
+    background-color: aquamarine;
+}
+
+.fizz{
+    background-color: burlywood;
+}
+
+.buzz{
+    background-color: tomato;
+}
